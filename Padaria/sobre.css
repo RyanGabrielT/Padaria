@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+body{
+    background-color: darkgray;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: black;
+    animation: e 7s ease-in-out infinite;
+}
+header h1{
+    text-shadow: 
+    1px 1px 1px red;
+    animation: a 2s ease-in-out infinite;
+}
+main{
+    display: flex;
+    margin: 95px 250px;
+    height: 60vh;
+    width: 50vw;
+    background-color: darkslateblue;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 1000px;
+}
+main p{
+    width: 25vw;
+    position: absolute;
+    top: 33vh;
+    left: 25vw;
+    color: aliceblue;
+
+}
+@keyframes a{
+    0%{
+        color: blue;
+    }
+    50%{
+        color: chartreuse;
+    }
+    100%{
+        color: chocolate;
+    }
+}
+aside img{
+    height: 250px;
+    width: 250px;
+}
+.b{
+    position: absolute;
+    top: 175px;
+    right: 60px;
+    animation:  b 2s ease-in-out infinite
+}
+.c{
+    position: absolute;
+    top: 420px;
+    right: 60px;
+    animation:  c 2s ease-in-out infinite
+}
+.d{
+    position: absolute;
+    top: 670px;
+    right: 60px;
+    animation:  d 2s ease-in-out infinite;
+}
+@keyframes b{
+    0%{
+        top: 175px;
+    }
+    50%{
+        top: 150px;
+    }
+    100%{
+        top: 125px;
+    }
+}
+@keyframes c{
+    0%{
+        top: 420px;
+    }
+    50%{
+        top: 395px;
+    }
+    100%{
+        top: 370px;
+    }
+}
+@keyframes d{
+    0%{
+        top: 670px;
+    }
+    50%{
+        top: 645px;
+    }
+    100%{
+        top: 620px;
+    }
+}
+@keyframes e{
+    0%{
+        background-color: antiquewhite;
+    }
+    25%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: coral;
+    }
+    75%{
+        background-color: darkorange;
+    }
+    100%{
+        background-color: hotpink;
+    }
+}
